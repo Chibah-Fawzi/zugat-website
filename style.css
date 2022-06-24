@@ -1,0 +1,77 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  background-color: #cac3b5;
+}
+nav {
+  background-color: #beb7aa;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.main {
+  text-align: center;
+  padding: 0 15vw;
+}
+h1 {
+  font-weight: lighter;
+  text-transform: capitalize;
+  font-size: 40px;
+}
+
+.vases {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+.vases img {
+  width: 200px;
+}
+#middle-vase {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+}
+#middle-vase button {
+  background: black;
+  color: white;
+  padding: 15px 40px;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+}
+#middle-vase img {
+  border-radius: 50%;
+}
+#story {
+  display: flex;
+  align-items: center;
+}
+.shippings {
+  background-color: #beb7aa;
+}
+
+.shippings {
+  display: flex;
+}
+.shippings div {
+  margin: 30px 0;
+  padding: 0 40px;
+}
+
+#middle-box {
+  border-right: 1px dotted black;
+  border-left: 1px dotted black;
+}
